@@ -1,0 +1,13 @@
+Error>
+
+      <!-- Error thrown when Future::Get is called on an un-set future. -->
+      <Error Key="DSFutureNotSet" NativeErrorCode="50412" _locID="110.DSFutureNotSet">A Jövőbeli érték/hiba beállítására történt kísérlet, miután már beállították.</Error>
+
+      <!-- Error thrown when an error occurred while decompressing LZ4 frames. -->
+      <Error Key="DSLZ4FDecompressionError" Params="3" NativeErrorCode="60000" _locID="110.DSLZ4FDecompressionError">%1%Hiba történt az LZ4-keretek kitömörítési kísérlete során. Az LZ4 API-függvény: %2% hibát adott vissza. Hiba részletei: %3%</Error>
+
+      <!-- Error thrown when the LZ4F_decompress function finished the decompression process but there is compressed data remaining that was not consumed. -->
+      <Error Key="DSLZ4FCompressedDataMissedError" Params="2" NativeErrorCode="60001" _locID="110.DSLZ4FCompressedDataMissedError">%1%A kitömörítés úgy fejeződött be, hogy a felhasznált adatokból %2% bájtot nem használt fel a rendszer.</Error>
+
+      <!-- Error thrown when the decompressed data size is smaller than expected. -->
+      <Error Key="DSLZ4FDecompressedDataSmallerThanExpectedError" Par
